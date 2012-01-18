@@ -14,7 +14,7 @@ This is actually pretty easy. [Go download and run the Haskell Platform installe
 Next, prove it works by installing hslint, like so:
 
     $ cabal update
-    install hlint
+    $ cabal install hlint
 
 A bunch of crap will happen, and when you're done, running `hlint` will give you a usage message. Easy.
 
