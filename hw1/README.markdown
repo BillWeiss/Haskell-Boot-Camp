@@ -1,39 +1,35 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Haskell Boot Camp: 1</title>
-		<meta charset="UTF-8"/>
-		<link rel="stylesheet" type="text/css" href="/default.css"/>
-	</head>
-	<body>
-		<h1>Haskell Boot Camp</h1>
-		<h2>Episode 1</h2>
-		
-		<p>Hi Bill. Let's get started.</p>
-		
-		<h2>Installing Haskell</h2>
-		
-		<p>This is actually pretty easy. <a href="http://hackage.haskell.org/platform/">Go download and run the Haskell Platform installer.</a> Dead simple.</p>
-		
-		<p>Next, prove it works by installing hslint, like so:</p>
-		
-		<pre><code>$ cabal update
-$ cabal install hlint</code></pre>
+Haskell Boot Camp
+=================
 
-		<p>A bunch of crap will happen, and when you're done, running <code>hlint</code> will give you a usage message. Easy.</p>
-		
-		<p>If you think you're going to want a local copy of up-to-date documentation, edit your <code>~/.cabal/config</code> file and uncomment <code>documentation: True</code>. Reinstall hlint and see if <a href="file://localhost/Users/houdini/.cabal/share/doc/index.html">this documentation link works</a> (or one like it).</p>
-		
-		<h2>Homework</h2>
-		
-		<p>Email me your finished programs as you make them. Of course feel free to ask any questions that should arise while writing them.</p>
-		
-		<ol>
-			<li><p>Configure your editor to support Haskell syntax highlighting.</p></li>
-			
-			<li><p>Write, compile and run the hello world program.
-			
-			<pre><code>$ ./hello
+Episode 1
+---------
+
+Hi Bill. Let's get started.
+
+Installing Haskell
+------------------
+
+This is actually pretty easy. [Go download and run the Haskell Platform installer.](http://hackage.haskell.org/platform/)Dead simple.
+
+<p>Next, prove it works by installing hslint, like so:</p>
+
+<pre><code>$ cabal update
+install hlint</code></pre>
+
+<p>A bunch of crap will happen, and when you're done, running <code>hlint</code> will give you a usage message. Easy.</p>
+
+<p>If you think you're going to want a local copy of up-to-date documentation, edit your <code>~/.cabal/config</code> file and uncomment <code>documentation: True</code>. Reinstall hlint and see if <a href="file://localhost/Users/houdini/.cabal/share/doc/index.html">this documentation link works</a> (or one like it).</p>
+
+<h2>Homework</h2>
+
+<p>Email me your finished programs as you make them. Of course feel free to ask any questions that should arise while writing them.</p>
+
+<ol>
+	<li><p>Configure your editor to support Haskell syntax highlighting.</p></li>
+	
+	<li><p>Write, compile and run the hello world program.
+	
+	<pre><code>$ ./hello
 Hello, world!
 $</code></pre></p></li>
 
