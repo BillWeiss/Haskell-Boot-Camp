@@ -39,55 +39,52 @@ Email me your finished programs as you make them. Of course feel free to ask any
         Hello, Bill!
         $
 
-			<li><p>Write a function that calculates the nth fibonacci number.
+4. Write a function that calculates the nth fibonacci number.
 			
-			<pre><code>Prelude> fib 10
-55
-Prelude> </code></pre></p></li>
+        Prelude> fib 10
+        55
+        Prelude>
 
-			<li><p>Write a program that prompts the user for N, and then writes the Nth fibonacci number to the console.</p>
+5. Write a program that prompts the user for N, and then writes the Nth fibonacci number to the console.
 			
-			<pre><code>$ ./fib
-Which fibonacci number would you like to see? <b>10</b>
-fib 10 = 55
-$ </code></pre></li>
-		</ol>
+        $ ./fib
+        Which fibonacci number would you like to see? 10
+        fib 10 = 55
+        $
 		
-		<p>OK, go get started. If you get stuck, read on.</p>
+OK, go get started. If you get stuck, read on.
 		
-		<h2>Soundtrack</h2>
-		
-		<p>This week's soundtrack is courtesy of <a href="http://www.vevo.com/artist/awolnation">AWOLNATION</a>.</p>
-		
-		<h2>Quote</h2>
-		
-		<blockquote>Haskell is faster than C++, more concise than Perl, more regular than Python, more flexible than Ruby, more typeful than C#, more robust than Java, and has absolutely nothing in common with PHP.</blockquote>
+Soundtrack
+----------
 
-		<p>— Autrijus Tang</p>
+This week's soundtrack is courtesy of [AWOLNATION](http://www.vevo.com/artist/awolnation)
 
-    <p></p>
-		
-		<h2>Notes</h2>
-		
-		<p>Monads. We're not going to talk about them for a while. Let's get a feel for the language first.</p>
+Quote
+-----
 
-		<p>Parts and pieces you may want/need:</p>
-		
-		<ul>
-			<li><code>($)</code></li>
-			<li><code>System.IO</code></li>
-			<li><code>putStrLn</code></li>
-			<li><code>getLine</code></li>
-			<li><code>hSetBuffering</code></li>
-			<li><code>show</code></li>
-			<li><code>read</code></li>
-			<li><code>ghc --make</code></li>
-			<li><code>ghci</code></li>
-			<li><code>:l</code></li>
-			<li><code>:r</code></li>
-			<li><code>:t</code></li>
-			<li><a href="http://www.haskell.org/ghc/docs/7.0.4/html/libraries/">HHL documentation</a></li>
-			<li><a href="http://www.haskell.org/hoogle/">Hoogle</a></li>
-		</ul>
-	</body>
-</html>
+> Haskell is faster than C++, more concise than Perl, more regular than Python, more flexible than Ruby, more typeful than C#, more robust than Java, and has absolutely nothing in common with PHP.
+
+— Autrijus Tang
+
+Notes
+-----
+
+Monads. We're not going to talk about them for a while. Let's get a feel for the language first.
+
+Parts and pieces you may want/need:
+
+* `($)`
+* `System.IO`
+* `putStrLn`
+* `getLine`
+* `hSetBuffering`
+* `show`
+* `read`
+* `ghc --make`
+* `ghci`
+* `:l`
+* `:r`
+* `:t`
+* [HHL documentation](http://www.haskell.org/ghc/docs/7.0.4/html/libraries/)
+* [Hoogle](http://www.haskell.org/hoogle/)
+
