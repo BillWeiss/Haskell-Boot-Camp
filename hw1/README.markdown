@@ -11,34 +11,30 @@ Installing Haskell
 
 This is actually pretty easy. [Go download and run the Haskell Platform installer.](http://hackage.haskell.org/platform/)Dead simple.
 
-<p>Next, prove it works by installing hslint, like so:</p>
+Next, prove it works by installing hslint, like so:
 
-<pre><code>$ cabal update
-install hlint</code></pre>
+    $ cabal update
+    install hlint
 
-<p>A bunch of crap will happen, and when you're done, running <code>hlint</code> will give you a usage message. Easy.</p>
+A bunch of crap will happen, and when you're done, running `hlint` will give you a usage message. Easy.
 
-<p>If you think you're going to want a local copy of up-to-date documentation, edit your <code>~/.cabal/config</code> file and uncomment <code>documentation: True</code>. Reinstall hlint and see if <a href="file://localhost/Users/houdini/.cabal/share/doc/index.html">this documentation link works</a> (or one like it).</p>
+If you think you're going to want a local copy of up-to-date documentation, edit your `~/.cabal/config` file and uncomment `documentation: True`. Reinstall hlint and see if [this documentation link works](file://localhost/Users/houdini/.cabal/share/doc/index.html) (or one like it).
 
-<h2>Homework</h2>
+Homework
+--------
 
-<p>Email me your finished programs as you make them. Of course feel free to ask any questions that should arise while writing them.</p>
+Email me your finished programs as you make them. Of course feel free to ask any questions that should arise while writing them.
 
-<ol>
-	<li><p>Configure your editor to support Haskell syntax highlighting.</p></li>
-	
-	<li><p>Write, compile and run the hello world program.
-	
-	<pre><code>$ ./hello
-Hello, world!
-$</code></pre></p></li>
-
-			<li><p>Write a program which prompts for a user's name and repeats it to the console.
-			
-			<pre><code>$ ./greetings
-Enter your name: <b>Bill</b>
-Hello, Bill!
-$ </code></pre></p></li>
+1. Configure your editor to support Haskell syntax highlighting.
+2. Write, compile and run the hello world program.
+    $ ./hello
+    Hello, world!
+    $
+3. Write a program which prompts for a user's name and repeats it to the console.
+    $ ./greetings
+    Enter your name: Bill
+    Hello, Bill!
+    $
 
 			<li><p>Write a function that calculates the nth fibonacci number.
 			
