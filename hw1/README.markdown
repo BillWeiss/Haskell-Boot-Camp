@@ -27,17 +27,14 @@ Email me your finished programs as you make them. Of course feel free to ask any
 
 1. Configure your editor to support Haskell syntax highlighting.
 2. Write, compile and run the hello world program.
-
-    $ ./hello
-    Hello, world!
-    $
-
+        $ ./hello
+        Hello, world!
+        $
 3. Write a program which prompts for a user's name and repeats it to the console.
-
-    $ ./greetings
-    Enter your name: Bill
-    Hello, Bill!
-    $
+        $ ./greetings
+        Enter your name: Bill
+        Hello, Bill!
+        $
 
 			<li><p>Write a function that calculates the nth fibonacci number.
 			
