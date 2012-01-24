@@ -6,13 +6,13 @@ Welcome back, Bill.
 Conditional Computation
 -----------------------
 
-Dealing with pure values, you can use the if syntax:
+Dealing with pure values, you can use the `if` syntax:
 
     if boolean-expression
       then then-case-value
       else else-case-value
 
-Dealing with monadic code, you can either refactor to deal with pure values or achieve monadic conditional computation with guards such as when:
+Dealing with monadic code, you can either refactor to deal with pure values or achieve monadic conditional computation with guards such as `when`:
 
     main = do
       when boolean-expression monadic-action
@@ -22,7 +22,7 @@ Note that in this case, you're really passing a monadic action to a function tha
 Iteration
 ---------
 
-Most of the time in Haskell, you will be dealing with lists or their ilk and your best option will be a functional combinator such as fmap or filter, or a more general list comprehension. For example:
+Most of the time in Haskell, you will be dealing with lists or their ilk and your best option will be a functional combinator such as `fmap` or `filter`, or a more general list comprehension. For example:
 
     Prelude> x = map (**2) [1..10]
     Prelude> y = [ x**2 | x <- [1..10] ]
