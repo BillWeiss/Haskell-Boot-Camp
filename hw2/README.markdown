@@ -50,8 +50,9 @@ This week's soundtrack provided courtesy of Foster the People.
 
 Quote
 -----
-this language is like having programming super powers
-— noggle
+
+>this language is like having programming super powers
+>— noggle
 
 Homework
 --------
