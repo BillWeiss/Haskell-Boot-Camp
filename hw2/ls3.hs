@@ -8,14 +8,14 @@ import System.Directory
 onlyIfDirExists fn dir = do
     de <- doesDirectoryExist dir
     if ( not de )
-        then ( putStrLn $ "Error: " ++ dir ++ " does not exist!\n" )
+        then putStrLn $ "Error: " ++ dir ++ " does not exist!\n"
         else do fn dir
 
 showDirContents dir = do
-            putStrLn $ "Contents of " ++ dir ++ ":"
-            f <- getDirectoryContents dir
-            mapM putStrLn f
-            putStrLn ""
+    putStrLn $ "Contents of " ++ dir ++ ":"
+    f <- getDirectoryContents dir
+    mapM putStrLn f
+    putStrLn ""
 
 main = do
     args <- getArgs
