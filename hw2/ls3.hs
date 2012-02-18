@@ -9,12 +9,12 @@ onlyIfDirExists fn dir = do
     de <- doesDirectoryExist dir
     if ( not de )
         then putStrLn $ "Error: " ++ dir ++ " does not exist!\n"
-        else do fn dir
+        else fn dir
 
 showDirContents dir = do
     putStrLn $ "Contents of " ++ dir ++ ":"
     f <- getDirectoryContents dir
-    mapM putStrLn f
+    mapM_ putStrLn f
     putStrLn ""
 
 main = do
@@ -22,4 +22,4 @@ main = do
     -- yep, right here.  I'd prefer the call to be 
     -- onlyIfDirExists (directory) (function)
     -- how's that work?
-    mapM ( onlyIfDirExists showDirContents ) args
+    mapM_ ( onlyIfDirExists showDirContents ) args
