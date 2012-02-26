@@ -95,7 +95,7 @@ Homework
         a t w w o t a t s w... 
         b t f o t l a t d...
 
-1.  Implement (Bulls and Cows)[http://en.wikipedia.org/wiki/Bulls_and_Cows) on
+1.  Implement [Bulls and Cows](http://en.wikipedia.org/wiki/Bulls_and_Cows) on
     the console. Example usage:
 
         7gf% ./bullscows 
@@ -130,7 +130,7 @@ Homework
 
 Parts and pieces you may want to know about:
 
-* (interact)[http://www.haskell.org/ghc/docs/latest/html/libraries/base/Prelude.html#v:interact]
-* (View patterns)[http://hackage.haskell.org/trac/ghc/wiki/ViewPatterns]
-* (Data.Maybe)[http://www.haskell.org/ghc/docs/latest/html/libraries/base/Data-Maybe.html]
+* [interact](http://www.haskell.org/ghc/docs/latest/html/libraries/base/Prelude.html#v:interact)
+* [View patterns](http://hackage.haskell.org/trac/ghc/wiki/ViewPatterns)
+* [Data.Maybe](http://www.haskell.org/ghc/docs/latest/html/libraries/base/Data-Maybe.html)
 
