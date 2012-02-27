@@ -20,7 +20,8 @@ Quote
 -----
 
 > monads are like containers, as long as you forget everything you know about containers, and treat it as a synonym for “monad”
-> -- kmc
+
+-- kmc
 
 Homework
 --------
